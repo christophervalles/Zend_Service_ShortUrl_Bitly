@@ -8,10 +8,10 @@ Installation
 
 Create the following folder structure in the library folder and drop the file inside ShortUrl folder
 
-/library
-    /App
-        /Service
-            /ShortUrl
+    /library
+        /App
+            /Service
+                /ShortUrl
 
 Usage
 =====
