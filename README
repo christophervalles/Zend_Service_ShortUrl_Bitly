@@ -1,0 +1,20 @@
+=Description=
+
+Zend_Service_ShortUrl_BitLy is a integration between zend and bit.ly short url service
+
+=Installation=
+
+Create the following folder structure in the library folder and drop the file inside ShortUrl folder
+
+/library
+    /App
+        /Service
+            /ShortUrl
+
+=Usage=
+
+//Create the instance
+$bitlyService = new App_Service_ShortUrl_BitLy($username, $apiKey);
+
+// Shorten the url
+$shortUrl = $bitlyService->shorten('http://www.google.es');
