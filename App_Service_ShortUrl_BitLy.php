@@ -121,7 +121,7 @@ class App_Service_ShortUrl_BitLy extends Zend_Service_ShortUrl_AbstractShortener
         }
         
         throw new Zend_Service_ShortUrl_Exception(sprintf(
-            'Error while shortening %s: %s', $url, $results['status_txt']
+            'Error while shortening %s: %s', $shortenedUrl, $results['status_txt']
         ));
     }
 }
